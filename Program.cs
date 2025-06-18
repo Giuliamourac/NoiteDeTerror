@@ -7,6 +7,57 @@ class NoiteDeTerror
         int dia = 0;
         int mes = 0;
 
+        string[] diaValor =
+        {
+            "Endiabrado",
+            "Radioativo",
+            "Endemoniado",
+            "Vermelho",
+            "Possuído",
+            "Macabro",
+            "Sombrio",
+            "Sem cabeça",
+            "Desconhecido",
+            "Inconsciente",
+            "Oculto",
+            "Esquecido",
+            "Lúgubre",
+            "Invocado",
+            "Caído",
+            "Costurado",
+            "Amaldiçoado",
+            "Anormal",
+            "Perturbado",
+            "Sanguinário",
+            "Tenebroso",
+            "Imortal",
+            "Ressucitado",
+            "do Pântano",
+            "da Encruzilhada",
+            "do Porão",
+            "do Velho Poço",
+            "sem Perdão",
+            "do Cemitério",
+            "da Meia-Noite",
+            "da Lua Cheia"
+        };
+
+        string[] mesValor =
+        {
+            "O Zumbi ",
+            "O Assassino ",
+            "O Psicopata ",
+            "O Alienígena ",
+            "O Carniceiro ",
+            "O Matador ",
+            "O Vampiro ",
+            "O Maluco ",
+            "O Vingador ",
+            "O Monstro ",
+            "O Bruxo ",
+            "O Demônio "
+        };
+
         Console.WriteLine(@"--Bem vindo a Noite de Terror--
 pressione uma tecla para proseguir...");
         Console.ReadKey();
