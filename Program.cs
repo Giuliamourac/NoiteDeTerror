@@ -79,6 +79,6 @@ pressione uma tecla para proseguir...");
             Console.WriteLine("Por favor digite um mes válido.");
         }
 
-        Console.WriteLine($"Cuidado! está vindo te pegar!");
+        Console.WriteLine($"Cuidado! {mesValor[mes - 1]}{diaValor[dia - 1]} está vindo te pegar!");
     }
 } 
